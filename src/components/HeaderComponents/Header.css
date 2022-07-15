@@ -1,0 +1,115 @@
+/* ----------------Search --------------*/
+
+.width img {
+    width: 10%;
+    /* font-size: 10px; */
+    margin-left: 20px;
+}
+
+.search {
+    padding: 20px 0;
+    background-color: #0f3460;
+    color: #fff;
+
+}
+
+/* .search .logo img {
+    width: auto;
+    height: auto;
+} */
+
+.c_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    outline: none;
+}
+
+.search-box input ::placeholder {
+    margin-left: 20px;
+}
+
+
+.logo {
+    width: 20%;
+    text-align: center;
+}
+
+.search-box {
+    width: 60%;
+    margin-left: -60px;
+}
+
+.search-box i {
+    font-size: 25px;
+    position: absolute;
+    z-index: 999;
+    margin-top: 10px;
+    margin-left: 1408px;
+    margin-top: 17px;
+    color: #222;
+
+}
+
+::placeholder {
+    font-size: 15px;
+
+}
+
+.icon {}
+
+.shop-logo {
+    width: 20%;
+}
+
+.f_flex {
+    display: flex;
+
+}
+
+.cart {
+    margin-left: 20px;
+}
+
+.cart i {
+    font-size: 25px;
+}
+
+.shop-logo i {
+    font-size: 25px;
+}
+
+/* ----------------Search --------------*/
+
+/* ----------------NABAR --------------*/
+
+.header {
+    padding: 10px 10%;
+    background-color: #4A5698;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* ----------------NABAR --------------*/
