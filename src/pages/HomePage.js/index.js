@@ -4,11 +4,11 @@ import HeaderComponent from "../../components/HeaderComponents";
 
 const HomePage = () => {
   return (
-  <div>  
-  <HeaderComponent />
-  
-  </div>
-  
+    <div>
+      <HeaderComponent />
+
+    </div>
+
   )
 };
 
