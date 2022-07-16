@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ClipBoard, HandbagFill, Heart, HomeFill, User } from "../../svg";
+import { ClipBoard, HandbagFill, Heart, HomeFill, UserTie } from "../../svg";
 
 const BottomNavigation = () => {
   return (
@@ -22,7 +22,7 @@ const BottomNavigation = () => {
     
       <div className="col-xs-2 d-flex justify-content-around align-items-center">
       <Link className="w-100 d-block " to ="/profile">
-      <User color='#48CAE4' width='50%' height='50%'  />
+      <UserTie color='#48CAE4' width='50%' height='50%'  />
       </Link>
       </div>
       
